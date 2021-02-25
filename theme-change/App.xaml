@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="theme_change.App">
+    <Application.Resources>
+        <!-- Light Colors -->
+        <Color x:Key="AppLightPrimaryColor">Blue</Color>
+        <Color x:Key="AppLightSecundaryColor">White</Color>
+        <Color x:Key="FrameLight">#2196F3</Color>
+        <Color x:Key="FrameDark">red</Color>
+
+        <!-- Dark Colors -->
+        <Color x:Key="AppDarkPrimaryColor">white</Color>
+        <Color x:Key="AppDarkSecundaryColor">black</Color>
+        
+        <!-- Style for btn -->
+        <Style x:Key="BtnStyle" TargetType="Button">
+            <Setter Property="BackgroundColor" 
+                    Value="{AppThemeBinding Light={StaticResource AppLightPrimaryColor}, Dark={StaticResource AppDarkPrimaryColor}}" />
+            <Setter Property="TextColor"
+                    Value="{AppThemeBinding Light={StaticResource AppLightSecundaryColor}, Dark={StaticResource AppDarkSecundaryColor}}" />
+        </Style>
+        
+        <!-- Style for Frame -->
+        <Style x:Key="BackFrame" TargetType="Frame">
+            <Setter Property="BackgroundColor"
+                    Value="{AppThemeBinding Light={StaticResource FrameLight}, Dark={StaticResource FrameDark}}" />
+        </Style>
+        
+        <!-- Style for pages -->
+        <Style x:Key="BackgroundStyle" TargetType="ContentPage">
+            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource AppLightSecundaryColor}, Dark={StaticResource AppDarkSecundaryColor}}" />
+        </Style>
+
+    </Application.Resources>
+</Application>

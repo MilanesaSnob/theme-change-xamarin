@@ -1,0 +1,14 @@
+D:\_dev\XamaApp\theme-change\theme-change\theme-change\bin\Debug\netstandard2.0\theme-change.deps.json
+D:\_dev\XamaApp\theme-change\theme-change\theme-change\bin\Debug\netstandard2.0\theme-change.dll
+D:\_dev\XamaApp\theme-change\theme-change\theme-change\bin\Debug\netstandard2.0\ref\theme-change.dll
+D:\_dev\XamaApp\theme-change\theme-change\theme-change\bin\Debug\netstandard2.0\theme-change.pdb
+D:\_dev\XamaApp\theme-change\theme-change\theme-change\obj\Debug\netstandard2.0\theme-change.csprojAssemblyReference.cache
+D:\_dev\XamaApp\theme-change\theme-change\theme-change\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\_dev\XamaApp\theme-change\theme-change\theme-change\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\_dev\XamaApp\theme-change\theme-change\theme-change\obj\Debug\netstandard2.0\theme-change.AssemblyInfoInputs.cache
+D:\_dev\XamaApp\theme-change\theme-change\theme-change\obj\Debug\netstandard2.0\theme-change.AssemblyInfo.cs
+D:\_dev\XamaApp\theme-change\theme-change\theme-change\obj\Debug\netstandard2.0\theme-change.csproj.CoreCompileInputs.cache
+D:\_dev\XamaApp\theme-change\theme-change\theme-change\obj\Debug\netstandard2.0\XamlC.stamp
+D:\_dev\XamaApp\theme-change\theme-change\theme-change\obj\Debug\netstandard2.0\theme-change.dll
+D:\_dev\XamaApp\theme-change\theme-change\theme-change\obj\Debug\netstandard2.0\ref\theme-change.dll
+D:\_dev\XamaApp\theme-change\theme-change\theme-change\obj\Debug\netstandard2.0\theme-change.pdb
