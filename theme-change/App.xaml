@@ -13,6 +13,12 @@
         <Color x:Key="AppDarkPrimaryColor">white</Color>
         <Color x:Key="AppDarkSecundaryColor">black</Color>
         
+        <!-- Style for labels -->
+        <Style x:Key="LabelStyle" TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{AppThemeBinding Light={StaticResource AppLightPrimaryColor}, Dark={StaticResource AppDarkPrimaryColor}}" />
+        </Style>
+        
         <!-- Style for btn -->
         <Style x:Key="BtnStyle" TargetType="Button">
             <Setter Property="BackgroundColor" 
